@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-04-20T00:00:00.000Z",
+  "projectRoot": "/home/basitdev/Me/sheikhBasit",
+  "nodes": [
+    {
+      "id": "file:README.md",
+      "type": "file",
+      "name": "README.md",
+      "filePath": "/home/basitdev/Me/sheikhBasit/README.md",
+      "layer": "unknown",
+      "summary": "GitHub profile README for Abdul Basit. Describes his role as a Backend Engineer and AI Systems Builder at VillaEx Technologies. Lists featured projects (ai-dev-team autonomous agent, quran_app, ashi AI OS) and full technology stack (FastAPI, LangGraph, LlamaIndex, LiveKit, Kotlin, Rust, TypeScript).",
+      "language": "markdown",
+      "concepts": ["profile", "documentation", "portfolio"]
+    }
+  ],
+  "edges": [],
+  "tours": [
+    {
+      "id": "tour:profile-overview",
+      "title": "Developer Profile Overview",
+      "steps": [
+        { "nodeId": "file:README.md", "reason": "This is the only file in the repo — it is Abdul Basit's public GitHub profile README summarising his work and stack." }
+      ]
+    }
+  ]
+}
